@@ -10,10 +10,10 @@ class Character(object):
 	intelligence = 8
 	wisdom = 10
 	charisma = 8
-	max_hp = 10 + 
+	max_hp = 10 + 14 + 1d10 + 8
 	hp = 
-	armour_class = 
-	initiative
+	armour_class = 10 + 12
+	initiative = 1d20 + 12
 
 	def attack(self):
 
@@ -22,15 +22,12 @@ class Character(object):
         @abstractmethod
         def perk(self):
     	
-class Dragon(object):
-	level = 10
-	strength = 20 
-	dexterity = 10
-	constitution = 16
-	intelligence = 8
-	wisdom = 20
-	charisma = 8
-	max_hp = 10 + 
-	hp = 
-	armour_class = 
-	initiative	
+class Dragon(Character):
+	@abstractmethod
+        def perk(self):
+	
+
+	
+class Hero(Character):
+	@abstractmethod
+        def perk(self):
