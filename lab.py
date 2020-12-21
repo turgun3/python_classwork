@@ -1,5 +1,6 @@
 
 from math import floor
+from abc import ABC, abstractmethod
 import random
 
 class Character(object):
