@@ -11,7 +11,7 @@ class Character(object):
 	wisdom = 10
 	charisma = 8
 	max_hp = 10 + 14 + 1d10 + 8
-	hp = 
+	hp = max_hp
 	armour_class = 10 + 12
 	initiative = 1d20 + 12
 
