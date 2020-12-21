@@ -19,8 +19,8 @@ class Character(object):
 
 	def save_throw(self, attribute):
 
-    @abstractmethod
-    def perk(self):
+        @abstractmethod
+        def perk(self):
     	
 class Dragon(object):
 	level = 10
