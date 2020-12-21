@@ -3,7 +3,7 @@ from math import floor
 from abc import ABC, abstractmethod
 import random
 
-class Character(object):
+class Character(ABC):
 	level = 8
 	strength = 18 
 	dexterity = 12
