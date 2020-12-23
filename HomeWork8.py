@@ -1,9 +1,3 @@
-id,username,email,ip_address
-1,root,root@example.com,192.168.0.1
-2,admin,admin@example.com,192.168.0.2
-3,test_user,test_user@example.com,192.168.0.3
-4,second_user,second_user@example.com,192.168.0.4”
-
 
 import csv
 
@@ -20,5 +14,5 @@ data = ["username,email".split(","),
 		"second_user,second_user@example.com".split(",")
 		]
 
-path = "output.csv"
+path = "data.csv"
 csv_writer(data, path)
